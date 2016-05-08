@@ -465,3 +465,225 @@ Stack Trace:
 #1 /vagrant/blog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
 #2 /vagrant/blog/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2016-05-08 14:12:53 Error: Fatal Error (4): syntax error, unexpected '/' in [/vagrant/blog/app/View/Posts/index.ctp, line 15]
+2016-05-08 14:12:53 Error: [FatalErrorException] syntax error, unexpected '/'
+Request URL: /blog/
+Stack Trace:
+#0 /vagrant/blog/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/blog/a...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/blog/a...', 15, Array)
+#2 /vagrant/blog/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/blog/a...', 15, Array)
+#3 /vagrant/blog/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-08 14:13:14 Error: [MissingActionException] Action PostsController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'add',
+)
+Request URL: /blog/posts/add
+Stack Trace:
+#0 /vagrant/blog/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/blog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /vagrant/blog/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-08 14:13:46 Error: [MissingActionException] Action PostsController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'add',
+)
+Request URL: /blog/posts/add
+Stack Trace:
+#0 /vagrant/blog/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/blog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /vagrant/blog/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-08 15:19:55 Error: Fatal Error (4): syntax error, unexpected '<' in [/vagrant/blog/app/View/Posts/view.ctp, line 19]
+2016-05-08 15:19:55 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /blog/posts/view/10
+Stack Trace:
+#0 /vagrant/blog/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/blog/a...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/blog/a...', 19, Array)
+#2 /vagrant/blog/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/blog/a...', 19, Array)
+#3 /vagrant/blog/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-08 15:28:29 Error: Fatal Error (4): syntax error, unexpected '}' in [/vagrant/blog/app/Controller/CommentsController.php, line 34]
+2016-05-08 15:28:29 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /blog/comments/add
+Stack Trace:
+#0 /vagrant/blog/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/blog/a...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/blog/a...', 34, Array)
+#2 /vagrant/blog/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/blog/a...', 34, Array)
+#3 /vagrant/blog/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-08 15:45:39 Error: Fatal Error (4): syntax error, unexpected '?>' in [/vagrant/blog/app/View/Posts/view.ctp, line 9]
+2016-05-08 15:45:39 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /blog/posts/view/14
+Stack Trace:
+#0 /vagrant/blog/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/blog/a...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#2 /vagrant/blog/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#3 /vagrant/blog/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-08 15:46:05 Error: Fatal Error (4): syntax error, unexpected '?>' in [/vagrant/blog/app/View/Posts/view.ctp, line 9]
+2016-05-08 15:46:05 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /blog/posts/view/14
+Stack Trace:
+#0 /vagrant/blog/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/blog/a...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#2 /vagrant/blog/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#3 /vagrant/blog/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-08 15:47:09 Error: Fatal Error (4): syntax error, unexpected '?>' in [/vagrant/blog/app/View/Posts/view.ctp, line 9]
+2016-05-08 15:47:09 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /blog/posts/view/14
+Stack Trace:
+#0 /vagrant/blog/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/blog/a...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#2 /vagrant/blog/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#3 /vagrant/blog/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-08 15:47:48 Error: Fatal Error (4): syntax error, unexpected '?>' in [/vagrant/blog/app/View/Posts/view.ctp, line 9]
+2016-05-08 15:47:48 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /blog/posts/view/14
+Stack Trace:
+#0 /vagrant/blog/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/blog/a...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#2 /vagrant/blog/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#3 /vagrant/blog/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-08 15:48:11 Error: Fatal Error (4): syntax error, unexpected '?>' in [/vagrant/blog/app/View/Posts/view.ctp, line 9]
+2016-05-08 15:48:11 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /blog/posts/view/14
+Stack Trace:
+#0 /vagrant/blog/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/blog/a...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#2 /vagrant/blog/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#3 /vagrant/blog/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-08 15:48:52 Error: Fatal Error (4): syntax error, unexpected '?>' in [/vagrant/blog/app/View/Posts/view.ctp, line 9]
+2016-05-08 15:48:52 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /blog/posts/view/14
+Stack Trace:
+#0 /vagrant/blog/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/blog/a...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#2 /vagrant/blog/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#3 /vagrant/blog/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-08 15:48:57 Error: Fatal Error (4): syntax error, unexpected '?>' in [/vagrant/blog/app/View/Posts/view.ctp, line 9]
+2016-05-08 15:48:57 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /blog/posts/view/16
+Stack Trace:
+#0 /vagrant/blog/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/blog/a...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#2 /vagrant/blog/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#3 /vagrant/blog/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-08 15:51:48 Error: Fatal Error (4): syntax error, unexpected '?>' in [/vagrant/blog/app/View/Posts/view.ctp, line 9]
+2016-05-08 15:51:48 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /blog/posts/view/16
+Stack Trace:
+#0 /vagrant/blog/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/blog/a...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#2 /vagrant/blog/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#3 /vagrant/blog/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-08 15:52:38 Error: Fatal Error (4): syntax error, unexpected '?>' in [/vagrant/blog/app/View/Posts/view.ctp, line 9]
+2016-05-08 15:52:38 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /blog/posts/view/16
+Stack Trace:
+#0 /vagrant/blog/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/blog/a...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#2 /vagrant/blog/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#3 /vagrant/blog/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-08 15:52:48 Error: Fatal Error (4): syntax error, unexpected '/' in [/vagrant/blog/app/View/Posts/view.ctp, line 10]
+2016-05-08 15:52:48 Error: [FatalErrorException] syntax error, unexpected '/'
+Request URL: /blog/posts/view/16
+Stack Trace:
+#0 /vagrant/blog/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/blog/a...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/blog/a...', 10, Array)
+#2 /vagrant/blog/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/blog/a...', 10, Array)
+#3 /vagrant/blog/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-08 15:53:28 Error: Fatal Error (4): syntax error, unexpected '?>' in [/vagrant/blog/app/View/Posts/view.ctp, line 9]
+2016-05-08 15:53:28 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /blog/posts/view/16
+Stack Trace:
+#0 /vagrant/blog/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/blog/a...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#2 /vagrant/blog/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#3 /vagrant/blog/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-08 15:53:35 Error: Fatal Error (4): syntax error, unexpected '?>' in [/vagrant/blog/app/View/Posts/view.ctp, line 9]
+2016-05-08 15:53:35 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /blog/posts/view/14
+Stack Trace:
+#0 /vagrant/blog/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/blog/a...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#2 /vagrant/blog/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#3 /vagrant/blog/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-08 15:54:06 Error: Fatal Error (4): syntax error, unexpected '?>' in [/vagrant/blog/app/View/Posts/view.ctp, line 9]
+2016-05-08 15:54:06 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /blog/posts/view/14
+Stack Trace:
+#0 /vagrant/blog/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/blog/a...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#2 /vagrant/blog/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#3 /vagrant/blog/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-08 15:54:16 Error: Fatal Error (4): syntax error, unexpected '?>' in [/vagrant/blog/app/View/Posts/view.ctp, line 9]
+2016-05-08 15:54:16 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /blog/posts/view/14
+Stack Trace:
+#0 /vagrant/blog/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/blog/a...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#2 /vagrant/blog/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#3 /vagrant/blog/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-08 15:56:54 Error: Fatal Error (4): syntax error, unexpected '?>' in [/vagrant/blog/app/View/Posts/view.ctp, line 11]
+2016-05-08 15:56:54 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /blog/posts/view/14
+Stack Trace:
+#0 /vagrant/blog/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/blog/a...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/blog/a...', 11, Array)
+#2 /vagrant/blog/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/blog/a...', 11, Array)
+#3 /vagrant/blog/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-08 15:57:17 Error: Fatal Error (4): syntax error, unexpected '?>' in [/vagrant/blog/app/View/Posts/view.ctp, line 11]
+2016-05-08 15:57:17 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /blog/posts/view/14
+Stack Trace:
+#0 /vagrant/blog/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/blog/a...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/blog/a...', 11, Array)
+#2 /vagrant/blog/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/blog/a...', 11, Array)
+#3 /vagrant/blog/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-08 15:59:33 Error: Fatal Error (4): syntax error, unexpected '?>' in [/vagrant/blog/app/View/Posts/view.ctp, line 9]
+2016-05-08 15:59:33 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /blog/posts/view/14
+Stack Trace:
+#0 /vagrant/blog/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/blog/a...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#2 /vagrant/blog/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/blog/a...', 9, Array)
+#3 /vagrant/blog/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
