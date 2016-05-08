@@ -8,6 +8,7 @@
 				//echo h($post['Post']['title']); //hとはCakePHPが持っているHTML Special charactoresの省略形
 				echo $this->Html->Link($post['Post']['title'], '/posts/view/' .$post['Post']['id']);
 				echo $this->Html->link('編集', array('action'=>'edit', $post['Post']['id']));
+				echo $this->Form->postLink('削除', array('action'=>'delete', $post['Post']['id']), array('confirm'=>'sure?'));
 			?>
 		</li>
 	<?php endforeach; ?>
